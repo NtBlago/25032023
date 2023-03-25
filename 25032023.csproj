@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11AD888A-5F3F-4D5C-ADB3-E6BA2C8B5298}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_25032023</RootNamespace>
+    <AssemblyName>25032023</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_admin.Designer.cs">
+      <DependentUpon>Form_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_menager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_menager.Designer.cs">
+      <DependentUpon>Form_menager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_rent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_rent.Designer.cs">
+      <DependentUpon>Form_rent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_view.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_view.Designer.cs">
+      <DependentUpon>Form_view.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_form.Designer.cs">
+      <DependentUpon>login_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_25032023_safinDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_25032023_safinDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_25032023_safinDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_25032023_safinDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_25032023_safinDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_25032023_safinDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_25032023_safinDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_25032023_safinDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_25032023_safinDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_25032023_safinDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_25032023_safinDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_25032023_safinDataSet5.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form_admin.resx">
+      <DependentUpon>Form_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_menager.resx">
+      <DependentUpon>Form_menager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_rent.resx">
+      <DependentUpon>Form_rent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_view.resx">
+      <DependentUpon>Form_view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_form.resx">
+      <DependentUpon>login_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="_25032023_safinDataSet.xsc">
+      <DependentUpon>_25032023_safinDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_25032023_safinDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_25032023_safinDataSet.xss">
+      <DependentUpon>_25032023_safinDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet1.xsc">
+      <DependentUpon>_25032023_safinDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_25032023_safinDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_25032023_safinDataSet1.xss">
+      <DependentUpon>_25032023_safinDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet2.xsc">
+      <DependentUpon>_25032023_safinDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_25032023_safinDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_25032023_safinDataSet2.xss">
+      <DependentUpon>_25032023_safinDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet3.xsc">
+      <DependentUpon>_25032023_safinDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_25032023_safinDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_25032023_safinDataSet3.xss">
+      <DependentUpon>_25032023_safinDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet4.xsc">
+      <DependentUpon>_25032023_safinDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_25032023_safinDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_25032023_safinDataSet4.xss">
+      <DependentUpon>_25032023_safinDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet5.xsc">
+      <DependentUpon>_25032023_safinDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_25032023_safinDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_25032023_safinDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_25032023_safinDataSet5.xss">
+      <DependentUpon>_25032023_safinDataSet5.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
