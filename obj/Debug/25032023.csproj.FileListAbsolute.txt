@@ -1,0 +1,14 @@
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\25032023.csprojResolveAssemblyReference.cache
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\_25032023.Form_admin.resources
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\_25032023.Form_menager.resources
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\_25032023.Form_rent.resources
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\_25032023.Form_view.resources
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\_25032023.login_form.resources
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\25032023.csproj.GenerateResource.cache
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\bin\Debug\25032023.exe.config
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\bin\Debug\25032023.exe
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\bin\Debug\25032023.pdb
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\_25032023.Properties.Resources.resources
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\25032023.csproj.CoreCompileInputs.cache
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\25032023.exe
+C:\Users\it-student.MEPHI3.003\Desktop\25032023-main\obj\Debug\25032023.pdb
